@@ -1,0 +1,75 @@
+.d {
+  color: red !important;
+}
+.homebody {
+  padding-top: 30px;
+}
+/*all product*/
+.container{
+  margin-left:350px;
+  margin-top:-58%;
+  background-color:#95b9ca88;
+  padding:10px;
+  padding-left:30px;
+  width:1000px;
+  box-shadow:5px 5px 10px black;
+  padding-bottom:30px;
+  animation:fade-in 2s;
+}
+@keyframes fade-in{
+  0%{
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+h5{
+  font-size: 35px;
+  color:#045174;
+  text-shadow:10px 10px 20px grey;
+  margin-top: -2px;
+}
+.table{
+ margin-top:-10px;
+ width:980px;
+}
+thead{
+  padding:5px;
+}
+tr{
+  padding:5px;
+  text-align:center;
+}
+th{
+  color:white;
+  font-size:15px;
+  background-color:#045174;
+  padding:10px;
+}
+td{
+  font-size:10px;
+  background-color:#085f874a;
+  padding:10px;
+}
+tr:hover{
+  background-color:#2284b14a;
+  cursor:pointer;
+}
+input[type=text]{
+  height:30px;
+}
+input[type=number]{
+  height:30px;
+}
+input[type=submit]{
+  height:30px;
+  width:80px;
+  font-weight:bold;
+  background-color:green;
+  color:white;
+  border:none;
+  border-radius: 5px;
+}
