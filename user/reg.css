@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    background:url('../image/back.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 850px;
+    margin: 50px auto;
+    height:500px;
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 24px 21px 42px 0px rgba(74,74,74,1),0px 6px 6px 0px rgba(0,0,0,0.23);
+    transition:all 1s ease;
+  
+  }
+  
+  .illust{
+    width:600px;
+    margin:-40px;
+    margin-left:-8px;
+  }
+  .illust img{
+    margin-left:-30px;
+    border-radius:10px;
+  }
+  .form {
+    margin-bottom: 30px;
+    margin-left:380px;
+    margin-top:-68%;
+  }
+  .container h2{
+    color:#001F3D;
+    font-weight:bold;
+    font-size:30px;
+    margin-left:45px;
+  }
+  .switch{
+    margin-left:380px;
+  }
+  .switch p{
+    font-weight:bold;
+    font-size:15px;
+    margin-left:45px;
+  }
+  .switch a{
+    padding-left: 10px;
+  }
+  .input-container {
+    position: relative;
+    margin: 50px ;
+    width: 300px;
+  }
+  
+  .input-container input[type="text"] {
+    font-size: 15px;
+    width: 140%;
+    border: none;
+    color:black;
+    border-bottom: 2px solid #001F3D;
+    margin-top:-30px;
+    background-color: transparent;
+    outline: none;
+  }
+.input-container input[type="email"] {
+    font-size: 15px;
+    width: 140%;;
+    border: none;
+    color:black;
+    border-bottom: 2px solid #001F3D;
+    margin-top:-30px;
+    background-color: transparent;
+    outline: none;
+  }
+  .input-container input[type="password"] {
+    font-size: 15px;
+    width: 140%;
+    border: none;
+    color:black;
+    border-bottom: 2px solid #001F3D;
+    margin-top:-30px;
+    background-color: transparent;
+    outline: none;
+  }
+  .input-container .label {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    color: #001F3D;
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .input-container input[type="text"]:focus ~ .label,
+  .input-container input[type="text"]:valid ~ .label ,
+  .input-container input[type="email"]:focus ~ .label,
+  .input-container input[type="email"]:valid ~ .label,
+  .input-container input[type="password"]:focus ~ .label,
+  .input-container input[type="password"]:valid ~ .label{
+    top: -40px;
+    font-size: 15px;
+    color: black;
+  }
+  
+  .input-container .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 142%;
+    background-color: black;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+  }
+  
+  .input-container input[type="text"]:focus ~ .underline,
+  .input-container input[type="text"]:valid ~ .underline,
+  .input-container input[type="email"]:focus ~ .underline,
+  .input-container input[type="email"]:valid ~ .underline,
+  .input-container input[type="password"]:focus ~ .underline,
+  .input-container input[type="password"]:valid ~ .underline
+   {
+    transform: scaleX(1);
+  }
+  button {
+    height: 2.8em;
+    width: 25em;
+    margin-left:50px;
+    background: transparent;
+    -webkit-animation: jello-horizontal 0.9s both;
+    animation: jello-horizontal 0.9s both;
+    border: 2px solid #001F3D;
+    outline: none;
+    color: #001F3D;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  button:hover {
+    background: #001F3D;
+    color: #ffffff;
+    animation: squeeze3124 0.9s both;
+  }
+  
+  @keyframes squeeze3124 {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+      transform: scale3d(0.95, 1.05, 1);
+    }
+  
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+      transform: scale3d(1.05, 0.95, 1);
+    }
+  
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  .switch a{
+    text-decoration: none;
+    cursor: pointer;
+    color:#001F3D;
+  }
