@@ -1,0 +1,38 @@
+body{
+    height:900px;
+}
+h5{
+    font-size:40px;
+    color:white;
+    font-weight:bold;
+    margin-left:90px;
+}
+.table{
+    padding:10px;
+    width:90%;
+    margin-left:80px;
+    margin-top:-40px;
+}
+thead{
+    padding:10px;
+    
+}
+tr{
+    padding:10px;
+    text-align:center;
+}
+th{
+    color:white;
+    font-size:15px;
+    background-color:#045174;
+    padding:15px;
+}
+td{
+    font-size:15px;
+    background-color:#085f874a;
+    padding:15px;
+}
+tr:hover{
+    background-color:#2284b14a;
+    cursor:pointer;
+}
